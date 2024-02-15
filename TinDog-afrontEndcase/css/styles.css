@@ -1,0 +1,217 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+/* 
+Headings */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+
+}
+
+.big-heading {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* containers */
+.container-fluid {
+
+    padding: 15% 7%;
+}
+
+
+/* Sections  */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.white-section {
+    background-color: #fff;
+
+}
+
+
+/* buttons */
+.btn btn-outline-light {
+    padding: 12px 16px;
+    font-family: 'Montserrat';
+
+}
+
+.btn btn-dark {
+    padding: 12px 16px;
+    font-family: 'Montserrat';
+
+
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 10% 3% 5% 0;
+
+    font-size: 1.3rem;
+
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+    font-family: "ubuntu";
+    -webkit-text-fill-color: aliceblue;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+
+
+/* title section */
+
+
+#title .container-fluid {
+    text-align: left;
+    position: relative;
+    padding: 3% 15% 7%;
+}
+
+.title-image {
+
+    width: 320px;
+    transform: rotate(25deg);
+
+    position: absolute;
+    left: 40%;
+}
+
+
+/* features section */
+
+#features {
+    background-color: #fff;
+    position: relative;
+
+}
+
+.features-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+.challenge-icons {
+    padding: 6%;
+    color: #ef8172;
+}
+
+.features-box {
+
+    padding: 5%;
+}
+
+.challenge-icons:hover {
+
+    color: #ff4c68
+}
+
+
+/* Testimonial section */
+
+#testimonials {
+
+    background-color: #ef8172;
+
+
+
+}
+
+.testimonials-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.testimonials-image {
+
+    width: 10%;
+    border-radius: 100%;
+    margin-top: 4 0px;
+    margin-left: 150px;
+}
+
+#press {
+    background-color: #ef8172;
+
+    padding-bottom: 3%;
+
+}
+
+.press-logo {
+
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+.pricing-column {
+    padding: 3% 2%;
+
+}
+
+@media (max-width:1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        width: 300px;
+        position: static;
+        transform: rotate(0);
+    }
+
+}
+
+/* cta section */
+
+.cta-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+
+    background-color: #fff;
+}
+
+.footerrow {
+    margin: 4px 4px;
+    padding: 5px 5px;
+}

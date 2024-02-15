@@ -1,0 +1,51 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+/* .image{
+
+    resize:vertical;
+} */
+
+.mb-4 {
+
+    margin-left: 15px;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin{
+  z-index: 2;
+}
+
+.top{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 4;
+  
+}
+
+.middle {
+margin-bottom: 10px;
+border-radius: 4;
+}
+.bottom {
+  margin-bottom: 10px;
+  border-radius: 4;
+}
+
+.btn-primary{
+
+    margin-top: 10px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>TryList</title>
+</head>
+<body>
+    <h1> <%=kindOfDay %> !</h1>
+   
+    <form action="/" method="post">
+        <ul>
+            <% for (i=0; i<=listItems.length; i++){ %>
+                    <li>
+                        <%=listItems[i] %>
+                    </li>
+                <% } %>
+        </ul>
+
+        <input type="text" name="listItem">
+        <button type="submit">Add</button>
+      
+        
+    </form>
+</body>
+</html>
